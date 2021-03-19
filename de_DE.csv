@@ -1548,11 +1548,11 @@ Billing Address:,Rechnungsadresse:,,
 Billing Address:,Rechnungsadresse:,module,Magento_Sales
 Billing Address: ,Rechnungsadresse:,module,Magento_Sales
 Billing Agreement,Abrechnungsvereinbarung,,
-Billing Agreement #,Abrechnungsvereinbarung #,,
-Billing Agreement #,Rechnungsvereinbarungsnummer #,module,Magento_Paypal
-Billing Agreement # ,Rechnungsvereinbarungsnummer #,module,Magento_Paypal
-Billing Agreement # %1,Abrechnungsvereinbarung #%1,,
-Billing Agreement #%1,Abrechnungsvereinbarung #%1,,
+Billing Agreement #,Abrechnungsvereinbarung,,
+Billing Agreement #,Rechnungsvereinbarungsnummer,module,Magento_Paypal
+Billing Agreement # ,Rechnungsvereinbarungsnummer ,module,Magento_Paypal
+Billing Agreement # %1,Abrechnungsvereinbarung Nr. %1,,
+Billing Agreement #%1,Abrechnungsvereinbarung Nr. %1,,
 Billing Agreement Signup,Abrechnungsvereinbarungsregistrierung,,
 Billing Agreement View,Abrechnungsvereinbarung ansehen,,
 Billing Agreements,Abrechnungsvereinbarungen,,
@@ -2305,13 +2305,13 @@ Credit Card Types,Kreditkartentypen,,
 Credit Card Verification,Kreditkarten-Verifizierung,,
 Credit Card: xxxx-%1,Kreditkarte: xxxx-%1,,
 Credit Memo,Gutschrift,,
-Credit Memo #,Gutschrift #,,
-Credit Memo #,Gutschrift #,module,Magento_Sales
-Credit Memo # ,Gutschrift #,module,Magento_Sales
-Credit Memo #%1 | %3 | %2 (%4),Gutschrift #%1 | %3 | %2 (%4),,
-Credit Memo #%1 | %3 | %2 (%4),Gutschrift #%1 | %3 | %2 (%4),module,Magento_Sales
-Credit memo #%1 comment added,Gutschrift #%1 Kommentar hinzugefügt,,
-Credit memo #%1 created,Gutschrift #%1 erstellt,,
+Credit Memo #,Gutschrift Nr.,,
+Credit Memo #,Gutschrift Nr.,module,Magento_Sales
+Credit Memo # ,Gutschrift Nr.,module,Magento_Sales
+Credit Memo #%1 | %3 | %2 (%4),Gutschrift Nr. %1 | %3 | %2 (%4),,
+Credit Memo #%1 | %3 | %2 (%4),Gutschrift Nr. %1 | %3 | %2 (%4),module,Magento_Sales
+Credit memo #%1 comment added,Gutschrift Nr. %1 Kommentar hinzugefügt,,
+Credit memo #%1 created,Gutschrift Nr. %1 erstellt,,
 Credit Memo Comment Email Sender,Gutschriftenkommentar-E-Mail-Absender,,
 Credit Memo Comment Email Template,Gutschriftenkommentar-E-Mail-Vorlage,,
 Credit Memo Comment Email Template for Guest,Gutschriftenkommentar-E-Mail-Vorlage für Gäste,,
@@ -4340,13 +4340,13 @@ Inventory Section,Abschnitt Inventar,module,Magento_CatalogInventory
 Inventory Stock Status,Lagerbestand,,
 Invitee,Eingeladener,,
 Invoice,Rechnung,,
-Invoice #,Rechnung #,,
-Invoice #,Rechnung #,module,Magento_Sales
-Invoice # ,Rechnung #,module,Magento_Sales
-Invoice #%1 | %2 | %4 (%3),Rechnung #%1 | %2 | %4 (%3),,
-Invoice #%1 | %2 | %4 (%3),Rechnung #%1 | %2 | %4 (%3),module,Magento_Sales
-Invoice #%1 comment added,Rechnung #%1 Kommentar hinzugefügt,,
-Invoice #%1 created,Rechnung #%1 erstellt,,
+Invoice #,Rechnung Nr.,,
+Invoice #,Rechnung Nr.,module,Magento_Sales
+Invoice # ,Rechnung Nr. ,module,Magento_Sales
+Invoice #%1 | %2 | %4 (%3),Rechnung Nr. %1 | %2 | %4 (%3),,
+Invoice #%1 | %2 | %4 (%3),Rechnung Nr. %1 | %2 | %4 (%3),module,Magento_Sales
+Invoice #%1 comment added,Rechnung Nr. %1 Kommentar hinzugefügt,,
+Invoice #%1 created,Rechnung Nr. %1 erstellt,,
 Invoice and Packing Slip Design,Rechnungs- und Lieferschein Design,,
 Invoice and Ship,Berechnen und versenden,,
 Invoice and shipment types do not match for some items on this order. You can create a shipment only after creating the invoice.,Rechnungs- und Versandtypen passen für einige Artikel dieser Bestellung nicht. Sie können eine Sendung erst nach der Erstellung der Rechnung erstellen.,,
@@ -5451,18 +5451,18 @@ Or you can email the following link and gift registry ID to them:,Oder Sie könn
 Order,Bestellung,,
 Order & Account Information,Bestellungs- und Kontoinformationen,,
 Order &amp; Account Information,Bestellung %amp; Kontoinformationen,,
-Order #,Bestellung #,,
-Order #,Bestellung #,module,Magento_Sales
-Order # ,Bestellung #,module,Magento_Sales
-Order # %1,Bestellung # %1,,
-Order # %1 %2 | %3,Bestellung # %1 %2 | %3,,
-Order # %1 %2 | %3,Bestellung # %1 %2 | %3,module,Magento_Sales
-Order # %1 Notification(s),Bestellung #%1 Benachrichtigung(en),,
-Order # %1 Notification(s),Bestell # %1 Mitteilung(en),module,Magento_Sales
-Order #%1,Bestellung #%1,,
-Order #%1 created at %2,Bestellung #%1 erstellt am %2,,
-"Order #%1, creditmemo #%2","Bestellung #%1, Gutschrift #%2",,
-Order #%1.,Bestellung #%1,,
+Order #,Bestellung Nr.,,
+Order #,Bestellung Nr.,module,Magento_Sales
+Order # ,Bestellung Nr. ,module,Magento_Sales
+Order # %1,Bestellung Nr. %1,,
+Order # %1 %2 | %3,Bestellung Nr. %1 %2 | %3,,
+Order # %1 %2 | %3,Bestellung Nr. %1 %2 | %3,module,Magento_Sales
+Order # %1 Notification(s),Bestellung Nr. %1 Benachrichtigung(en),,
+Order # %1 Notification(s),Bestell Nr. %1 Mitteilung(en),module,Magento_Sales
+Order #%1,Bestellung Nr. %1,,
+Order #%1 created at %2,Bestellung Nr. %1 erstellt am %2,,
+"Order #%1, creditmemo #%2","Bestellung Nr. %1, Gutschrift Nr. %2",,
+Order #%1.,Bestellung Nr. %1,,
 Order Address,Bestelladresse,,
 Order Address %1,Bestelladresse %1,,
 Order Address %1 a %2 Address,Bestelladresse %1 eine %2-Adresse,,
@@ -5579,10 +5579,9 @@ Package ready time after order submission (in hours),Versandvorbereitungszeit na
 Packages,Pakete,,
 Packages Request Type,Pakete-Anfragetyp,,
 Packaging,Verpackung,,
-Packing Slip #,Lieferschein #,,
-Packing Slip #,Packzettel #,,
-Packing Slip #,Lieferschein #,module,Magento_Sales
-Packing Slip # ,Lieferschein #,module,Magento_Sales
+Packing Slip #,Packzettel Nr.,,
+Packing Slip #,Packzettel Nr.,module,Magento_Sales
+Packing Slip # ,Packzettel Nr. ,module,Magento_Sales
 Page,Seite,,
 Page Background Color,Seiten-Hintergrundfarbe,,
 Page blocks HTML,Page blocks HTML.,module,Magento_Store
@@ -6741,8 +6740,8 @@ Refresh Statistics for the Last Day,Aktualisieren Sie die Statistik des letzten 
 Refresh Status,Status aktualisieren,,
 refund,Rückerstatten,,
 Refund,Rückerstattung,,
-Refund #,Rückerstattung #,,
-Refund #%1,Rückerstattung #%1,,
+Refund #,Rückerstattung Nr.,,
+Refund #%1,Rückerstattung Nr. %1,,
 Refund Amount,Rückerstattungsbetrag,,
 Refund Gift Cards to Store Credit,Geschenkkarten zum Shopguthaben zurückerstatten,,
 Refund Ids,Rückerstattung Ids,module,Magento_Braintree
@@ -6938,9 +6937,9 @@ Retail Ground,Einzelhandelssitz,module,Magento_Usps
 Retrieve Password,Passwort abrufen,,
 Retry Messages In Progress After,Nachrichten in Bearbeitung hinterher erneut versuchen,,
 Return,Rücksendung,,
-Return #,Rücksendung #,,
-Return #%1,Rücksendung #%1,,
-Return #%1 - %2,Rücksendung #%1 - %2,,
+Return #,Rücksendung Nr.,,
+Return #%1,Rücksendung Nr. %1,,
+Return #%1 - %2,Rücksendung Nr. %1 - %2,,
 Return Address,Rücksendungsadresse,,
 Return Address:,Rücksendungsadresse:,,
 Return Confirmation,Rücksendungsbestätigung,,
@@ -6985,9 +6984,9 @@ Reviews,Bewertungen,,
 Reviews %1,Bewertungen %1,,
 Reviews for %1,Bewertungen für %1,,
 Revision,Revision,,
-Revision #,Revision #,,
-Revision #%1,Revision #%1,,
-Revision #%1 could not be removed because it is published.,"Revision #%1 konnte nicht entfernt werden, weil sie veröffentlicht wurde.",,
+Revision #,Revision Nr.,,
+Revision #%1,Revision Nr. %1,,
+Revision #%1 could not be removed because it is published.,"Revision Nr. %1 konnte nicht entfernt werden, weil sie veröffentlicht wurde.",,
 Revision Information,Revisionsinformationen,,
 Reward Exchange Rate Information,Belohnungsaustauschrateninformationen,,
 Reward Exchange Rates,Belohnungsaustauschraten,,
@@ -7443,12 +7442,12 @@ Ship to:,Versenden an:,,
 Ship To:,Versenden an:,,
 Ship-to Name,Versand an Name,,
 Shipment,Versand,,
-Shipment #,Lieferung #,,
-Shipment #%1,Versand #%1,,
-Shipment #%1 | %3 (%2),Sendung #%1 | %3 (%2),,
-Shipment #%1 | %3 (%2),Versand #%1 | %3 (%2),module,Magento_Shipping
-Shipment #%1 comment added,Sendung #%1 Kommentar hinzugefügt,,
-Shipment #%1 created,Sendung #%1 erstellt,,
+Shipment #,Lieferung Nr.,,
+Shipment #%1,Versand Nr. %1,,
+Shipment #%1 | %3 (%2),Sendung Nr. %1 | %3 (%2),,
+Shipment #%1 | %3 (%2),Versand Nr. %1 | %3 (%2),module,Magento_Shipping
+Shipment #%1 comment added,Sendung Nr. %1 Kommentar hinzugefügt,,
+Shipment #%1 created,Sendung Nr. %1 erstellt,,
 Shipment Comment Email Sender,Versandkommentar-E-Mail-Absender,,
 Shipment Comment Email Template,Versandkommentar-E-Mail-Vorlage,,
 Shipment Comment Email Template for Guest,Versandkommentar-E-Mail-Vorlage für Gäste,,
